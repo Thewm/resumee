@@ -4,12 +4,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resumee | Resume Template With Typed.js</title>
+    <title>RESUMEE | Resume Template With Typed.js</title>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./stylesheet/style.css">
 </head>
 
-<body>
+<body id="wrapper">
+    <header class="header">
+        <div class="header--name">
+            <h1 class="header--name__heading"></h1>
+            <p class="header--name__comment"></p>
+        </div>
+        <div class="header--information">
+            <p class="header--information__address"></p>
+            <a href="tel:+989910609113" class="header--information__tel"></a>
+            <a href="mailto:mjghcr@gmail.com" class="header--information__mail"></a>
+        </div>
+    </header>
 
+    <main class="main">
+        <aside class="main--content">
+            <section class="main--content__experiences">
+                <h2 class="main--content__heading-ex"></h2>
+                <div class="main--content__experience">
+                    <h4 class="main--exp1__heading"></h4>
+                    <p class="main--exp1__date"></p>
+                    <p class="main--exp1__describe"></p>
+                </div>
+                <div class="main--content__experience">
+                    <h4 class="main--exp2__heading"></h4>
+                    <p class="main--exp2__date"></p>
+                    <p class="main--exp2__describe"></p>
+                </div>
+                <div class="main--content__experience">
+                    <h4 class="main--exp3__heading"></h4>
+                    <p class="main--exp3__date"></p>
+                    <p class="main--exp3__describe"></p>
+                </div>
+            </section>
+            <section class="main--content__education">
+                <div class="main--content__experience">
+                    <h4 class="main--edu__heading"></h4>
+                    <p class="main--edu__date"></p>
+                    <p class="main--edu__describe"></p>
+                </div>
+            </section>
+            <section class="main--content__projects">
+                <div class="main--content__experience">
+                    <h4 class="main--pro__heading"></h4>
+                    <p class="main--pro__date"></p>
+                    <p class="main--pro__describe"></p>
+                </div>
+            </section>
+        </aside>
+        <nav class="main--navbar">
+            <section class="main--navbar__skills">
+                <h2 class="main--skill__heading"></h2>
+                <ol class="main--navbar__items">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ol>
+            </section>
+            <section class="main--navbar__awards">
+                <h2 class="main--award__heading"></h2>
+                <ol class="main--navbar__items">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ol>
+            </section>
+            <section class="main--navbar__langs">
+                <p class="main--navbar__lang"></p>
+            </section>
+        </nav>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+    <script src="./js/app.js"></script>
 </body>
 
 </html>
