@@ -1,7 +1,62 @@
 $('document').ready(function () {
-  let typed = new Typed('.header--name__heading', {
-    strings: ['{#winter ^1000 MC}'],
-    typeSpeed: 60,
-    showCursor: false,
-  });
+  config('.header--name__heading', 0, 55, 'Majid Ghasemi');
+  config(
+    '.header--name__comment',
+    500,
+    35,
+    'Front-End developer who cares about open-source and creative ideas '
+  );
+  config('.header--information__address', 3500, 30, 'Alborz Province, Karaj');
+  config('.header--information__tel', 4000, 50, '(+98)9910609113');
+  config('.header--information__mail', 4000, 50, 'mjghcr@gmail.com');
+  config('.main--content__heading-ex', 5500, 80, 'Experience');
+  config(
+    '.main--exp1__heading',
+    6500,
+    65,
+    'Expert Road, Karaj - Front-End developer'
+  );
+  config('.main--exp1__date', 7500, 70, 'Oct 2018 - Apr 2019');
+  config(
+    '.main--exp1__describe',
+    8500,
+    40,
+    'Worked as a front end developer ... in expert Road marketing camp i developed leader board and some landings'
+  );
+  config(
+    '.main--exp2__heading',
+    10500,
+    65,
+    'TestHub, Karaj - Front-End developer'
+  );
+  config('.main--exp2__date', 12000, 70, 'May 2018 - Sep 2018');
+  config(
+    '.main--exp2__describe',
+    13000,
+    40,
+    'Working as Front-End developer ... i developed some landings and dashboard for Testhub'
+  );
+  config('.main--content__heading-edu', 15000, 65, 'Education');
+  config('.main--edu__heading-edu', 1600, 65, 'IKIU, Qazvin - Bachelor');
+  config('.main--edu__date', 1500, 65, '2017 - Present');
+  config('.main--edu__describe', 17000, 65, 'Studying computer enineering in bachelor\'s degree in Imam Khomeini International University (IKIU)');
+  config('.main--content__heading-pro', 20000, 65, 'Projects');
+  config(
+    '.main--content__projects-project',
+    22000,
+    65,
+    'Projects in Github'
+  );
 });
+
+function config(name, speedDelay, typeSpeed, text) {
+  new Typed(name, {
+    strings: [text],
+    typeSpeed: typeSpeed,
+    showCursor: false,
+    startDelay: speedDelay,
+    // showCursor: true,
+    // cursorChar: '|',
+    // autoInsertCss: true,
+  });
+}
