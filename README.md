@@ -1,2 +1,2 @@
 # Resumee - Resume.me 
-My resume with Typed.js
+Resume template with typed js
