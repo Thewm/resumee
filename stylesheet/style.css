@@ -52,11 +52,11 @@ a {
 
 #wrapper {
     max-width: 100%;
-    min-height: 100vh;
+    min-height: 98vh;
     background-color: black;
     color: rgb(229, 226, 226);
     font-family: 'Open Sans', sans-serif;
-    overflow-y: hidden;
+    /* overflow-y: hidden; */
 }
 
 .header {
