@@ -50,13 +50,11 @@ a {
     color: rgb(71, 133, 226);
 }
 
-/* #9ccc9c */
-
 #wrapper {
     max-width: 100%;
     min-height: 100vh;
     background-color: black;
-    color: #ffffff;
+    color: rgb(229, 226, 226);
     font-family: 'Open Sans', sans-serif;
     overflow-y: hidden;
 }
@@ -86,6 +84,12 @@ a {
     justify-content: space-around;
     padding: 1rem 8rem;
 }
+
 .main--content__experience {
     margin-bottom: 2rem;
+}
+
+aside, nav {
+    display: flex;
+    flex-direction: column;
 }
