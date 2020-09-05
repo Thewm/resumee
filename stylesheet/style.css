@@ -89,7 +89,4 @@ a {
     margin-bottom: 2rem;
 }
 
-aside, nav {
-    display: flex;
-    flex-direction: column;
-}
+.main--navbar__langs { margin-top: 2rem;}
