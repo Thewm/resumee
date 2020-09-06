@@ -52,12 +52,12 @@ $('document').ready(function () {
   );
   // main--content__projects-linkedin
   config('.main--content__heading-pro', 24000, 60, 'Projects');
-  config('.main--content__projects-project', 24000, 60, 'Projects [in] Github');
+  config('.main--content__projects-project', 24000, 60, 'Projects [in] Github |');
   config(
     '.main--content__projects-linkedin',
     25000,
     60,
-    'Linkedin'
+    ' Linkedin'
   );
   config('.main--skill__heading', 27000, 60, 'Main Skills');
   config('.main--navbar__item1', 28000, 60, 'Javascript');
