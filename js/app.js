@@ -37,7 +37,12 @@ $('document').ready(function () {
     'Working as Front-End developer ... I developed some landings and dashboard for Testhub'
   );
   config('.main--content__heading-edu', 15000, 65, 'Education');
-  config('.main--content__edu-heading', 16000, 60, 'IKIU, Qazvin Province - Bachelor');
+  config(
+    '.main--content__edu-heading',
+    16000,
+    60,
+    'IKIU, Qazvin Province - Bachelor'
+  );
   config('.main--content__edu-date', 18500, 60, '2017 - Present');
   config(
     '.main--content__edu-describe',
@@ -45,9 +50,15 @@ $('document').ready(function () {
     50,
     "Studying computer engineering in bachelor's degree in Imam Khomeini International University (IKIU)"
   );
-
+  // main--content__projects-linkedin
   config('.main--content__heading-pro', 24000, 60, 'Projects');
   config('.main--content__projects-project', 24000, 60, 'Projects [in] Github');
+  config(
+    '.main--content__projects-linkedin',
+    25000,
+    60,
+    'Linkedin'
+  );
   config('.main--skill__heading', 27000, 60, 'Main Skills');
   config('.main--navbar__item1', 28000, 60, 'Javascript');
   config('.main--navbar__item2', 29000, 60, 'HTML5');
@@ -55,9 +66,13 @@ $('document').ready(function () {
   config('.main--navbar__item4', 31000, 60, 'Vue.js');
   config('.main--navbar__item5', 32000, 60, 'Bootstrap 4');
   config('.main--navbar__lang', 34000, 60, 'Languages');
-  config('.main--navbar__exp-lang', 35000, 60, 'Farsi (Native), English, Turkish');
+  config(
+    '.main--navbar__exp-lang',
+    35000,
+    60,
+    'Farsi (Native), English, Turkish'
+  );
 });
-
 
 function config(name, speedDelay, typeSpeed, text) {
   new Typed(name, {
