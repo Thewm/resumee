@@ -41,24 +41,24 @@ $('document').ready(function () {
     '.main--content__edu-heading',
     16000,
     60,
-    'IKIU, Qazvin Province - Bachelor'
+    'Imam Khomeini International University, Qazvin — B.Sc'
   );
   config('.main--content__edu-date', 18500, 60, '2017 - Present');
   config(
     '.main--content__edu-describe',
     19500,
     50,
-    "Studying computer engineering in bachelor's degree in Imam Khomeini International University (IKIU)"
+    'Bachelor of Science, Software Engineering'
   );
   // main--content__projects-linkedin
   config('.main--content__heading-pro', 24000, 60, 'Projects');
-  config('.main--content__projects-project', 24000, 60, 'Projects [in] Github |');
   config(
-    '.main--content__projects-linkedin',
-    25000,
+    '.main--content__projects-project',
+    24000,
     60,
-    ' Linkedin'
+    'Projects [in] Github |'
   );
+  config('.main--content__projects-linkedin', 25000, 60, ' Linkedin');
   config('.main--skill__heading', 27000, 60, 'Main Skills');
   config('.main--navbar__item1', 28000, 60, 'Javascript');
   config('.main--navbar__item2', 29000, 60, 'HTML5');
