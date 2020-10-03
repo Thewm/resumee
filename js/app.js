@@ -80,8 +80,5 @@ function config(name, speedDelay, typeSpeed, text) {
     typeSpeed: typeSpeed,
     showCursor: false,
     startDelay: speedDelay,
-    // showCursor: true,
-    // cursorChar: '|',
-    // autoInsertCss: true,
   });
 }
