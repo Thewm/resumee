@@ -70,7 +70,7 @@ $('document').ready(function () {
     '.main--navbar__exp-lang',
     35000,
     60,
-    'Farsi (Native), English, Turkish'
+    'Farsi (Native), English'
   );
 });
 
