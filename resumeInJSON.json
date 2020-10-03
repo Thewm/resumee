@@ -1,0 +1,106 @@
+{
+
+
+    "fullName": "Majid Ghasemi",
+
+
+    "aboutMe": "Front-End developer who cares about open-source and creative ideas",
+
+
+    "livingLocation": "Alborz Province, Karaj",
+
+
+    "phoneNumber": "+989910609113",
+
+
+    "email": "mjghcr@gmail.com",
+
+
+    "github": "www.github.com/Thewm",
+
+
+    "gistGithub": "www.gist.github.com/Thewm",
+
+
+    "linkedin": "www.linkedin.com/in/majid-ghasemi",
+
+
+    "education": {
+
+
+        "title": "Software engineering",
+
+
+        "university": {
+
+
+            "name": "Imam Khomeini International University (IKIU)",
+
+
+            "location": "Qazvin Province"
+
+
+        },
+
+
+        "date": "2017 - present",
+
+
+        "description": "Bachelor of Science, Software Engineering"
+
+
+    },
+
+
+    "experince": [
+
+
+        {
+
+
+            "jobTitle": "Front-End developer",
+
+
+            "company": "TestHub",
+
+
+            "companyLocation": "Karaj",
+
+
+            "duration": "May 2018 - Sep 2018",
+
+
+            "description": "Working as a Front-End developer of core team ... We developed some landings and dashboard for Testhub"
+
+
+        },
+
+
+        {
+
+
+            "jobTitle": "Front-End developer",
+
+
+            "company": "Expert Road (Marketing Camp)",
+
+
+            "companyLocation": "Karaj",
+
+
+            "duration": "Oct 2018 - Apr 2019",
+
+
+            "description": "Working as a Front-End chapter lead ...  In expert Road marketing camp we developed leader boards, landings, dashboard, panels and etc ..."
+
+
+        }
+
+
+    ],
+
+
+    "skills": ["Javascript", "Vue.js", "HTML", "CSS"]
+
+
+}

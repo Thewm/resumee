@@ -21,7 +21,7 @@ $('document').ready(function () {
     '.main--exp1__describe',
     8500,
     40,
-    'Worked as a front end developer ... In expert Road marketing camp i developed leader board and some landings'
+    'Working as a Front-End chapter lead ...  In expert Road marketing camp we developed leader boards, landings, dashboard, panels and etc ...'
   );
   config(
     '.main--exp2__heading',
@@ -34,7 +34,7 @@ $('document').ready(function () {
     '.main--exp2__describe',
     13000,
     40,
-    'Working as Front-End developer ... I developed some landings and dashboard for Testhub'
+    'Working as a Front-End developer of core team ... We developed some landings and dashboard for Testhub'
   );
   config('.main--content__heading-edu', 15000, 65, 'Education');
   config(
